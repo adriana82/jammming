@@ -1,5 +1,5 @@
 const clientId ='fbd1e6017dec4dbf9a34d082742409b2';
-const redirectURI = 'http://jammming_adriana.surge.sh';
+const redirectURI = 'http://localhost:3000';
 let accessToken;
 
  const Spotify = {
@@ -43,6 +43,7 @@ let accessToken;
                 artist: track.artists[0].name,
                 album: track.album.name,
                 uri: track.uri,
+                thumb: track.album.images[2].url
               };
             })
           } else return [];

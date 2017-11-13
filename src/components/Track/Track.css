@@ -15,6 +15,16 @@
   color: rgba(265, 265, 265, .5);
 }
 
+.Track-thumb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 72px;
+}
+.Track-thumb-img {
+  width: 64;
+  height: 64;
+}
 .Track-information {
   flex-grow: 1;
   display: flex;
